@@ -1,0 +1,24 @@
+.bar{
+      width: 100%;
+      display: flex;
+      
+      &__input{
+            width: 85%;
+            border-radius: 6px 0 0 6px;
+            border: 1px solid black;
+            font-size: 18px;
+            padding: 8px;
+            border-right: 0;
+      }
+
+      &__button{
+            width: 15%;
+            border-radius: 0 6px 6px 0;
+            border: 0;
+            background-color: #A77B38;
+            transition: .2s;
+            &:hover{
+                  background-color: #886530;
+            }
+      }
+}

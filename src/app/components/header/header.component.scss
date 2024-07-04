@@ -1,0 +1,27 @@
+.header{
+      background-color: black;
+      height: 15vh;
+      width: 100vw;
+      color: white;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      font-family: Helvetica, sans-serif;
+}
+
+.link{
+      background-color: white;
+      color: black;
+      border-radius: 8px;
+      padding: 4px 10px;
+      font-size: 1rem;
+      font-family: Helvetica, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      justify-self: start;
+
+      img{
+            width: 24px;
+      }
+}

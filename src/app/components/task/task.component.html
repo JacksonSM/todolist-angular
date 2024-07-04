@@ -1,0 +1,11 @@
+<li class="list-container__list__item">
+      <h4 
+            [class.check]="task.isCheck"
+            [class.uncheck]="task.isUnCheck"
+            >{{ task.title }}</h4>
+      <div class="list-container__list__item__buttons">
+            <button (click)="onDelete()"><img src="../assets/icons/delete-icon.svg" alt="delete icon"></button>
+            <button (click)="onUnCheck()"><img src="../assets/icons/close-icon.svg" alt="close icon"></button>
+            <button (click)="onCheck()"><img src="../assets/icons/check-icon.svg" alt="check icon"></button>
+      </div>
+</li>

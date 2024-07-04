@@ -1,0 +1,40 @@
+.screen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.main-container{
+    width: 50%;
+    height: 85vh;
+    align-self: center;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    overflow: hidden;
+}
+
+.list-container{
+    background-color: #FFFDFD;
+    height: 80%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+
+    .empty-task-message{
+        align-self: center;
+        font-size: 2rem;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .list-container__list{
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+}

@@ -1,0 +1,23 @@
+<div class="screen">
+  <app-header></app-header>
+
+  <div class="main-container">
+    <app-task-input-bar (onAddTask)="taskAdded($event)"></app-task-input-bar>
+
+    <div class="list-container">
+      <ul class="list-container__list" >
+        <app-task 
+        *ngFor="let task of taskList;" 
+        [task]="task"
+        (onCheckTask)="CheckTask($event)"
+        (onDeleteTask)="DeleteTask($event)"
+        (onUnCheckTask)="UnCheckTask($event)"
+        ></app-task>
+      </ul>
+
+      <div *ngIf="listIsEmpty" class="empty-task-message">Adicione tarefas no +</div>
+    </div>
+</div>
+</div>
+
+
