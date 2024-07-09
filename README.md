@@ -1,27 +1,19 @@
 # TodoList
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.8.
+Este projeto Angular foi desenvolvido com o intuido de praticar os conhecimentos sobre a ferramenta. 
 
-## Development server
+Utilizei o Angular na versão 17 e o SCSS como pré-processamento de css.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Acesse o deploy do projeto: [Acesse aqui](https://jacksonsm.github.io/todolist-angular/)
 
-## Code scaffolding
+## Para rodar na sua maquina
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+#### Instale as dependências
+`npm install`
 
-## Build
+#### Inicie o servidor de desenvolvimento
+`ng serve`
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Essas são imagens do projeto.
+![Screenshot 2024-07-04 130836](https://github.com/JacksonSM/todolist-angular/assets/90290547/649a01a9-7fd9-4723-8892-4942c2a9101b)
+![Screenshot 2024-07-04 131020](https://github.com/JacksonSM/todolist-angular/assets/90290547/d5d03c21-9640-496e-9674-1130c1a13b4d)
